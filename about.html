@@ -108,7 +108,7 @@
     <main>
         <div class="position-relative">
             <!-- shape Hero -->
-            <section class="section section-lg section-shaped pb-100">
+            <section class="section section-lg section-shaped pb">
                 <div class="shape shape-style-1 shape-default">
                     <span></span>
                     <span></span>
@@ -147,8 +147,8 @@
             </section>
             <!-- 1st Hero Variation -->
         </div>
-        <section class="section bg-secondary pt-lg-0 ">
-            <div class="container pt-lg">
+        <section class="section bg-secondary" id="top-about">
+            <div class="container">
                 <div class="nav-wrapper">
                     <ul class="nav nav-pills nav-fill flex-column flex-md-row" id="tabs-icons-text" role="tablist">
                         <li class="nav-item">
@@ -320,7 +320,7 @@
                 $('#tabs-icons-text-1-tab').click();
                 $("#navbar_global").removeClass("show")
                 $("html, body").animate({
-                    scrollTop: $('#all-about').offset().top
+                    scrollTop: $('#top-about').offset().top
                 }, 1000);
             });
 
@@ -328,7 +328,7 @@
                 $('#tabs-icons-text-2-tab').click();
                 $("#navbar_global").removeClass("show")
                 $("html, body").animate({
-                    scrollTop: $('#all-about').offset().top
+                    scrollTop: $('#top-about').offset().top
                 }, 1000);
             });
 
@@ -336,7 +336,7 @@
                 $('#tabs-icons-text-3-tab').click();
                 $("#navbar_global").removeClass("show")
                 $("html, body").animate({
-                    scrollTop: $('#all-about').offset().top
+                    scrollTop: $('#top-about').offset().top
                 }, 1000);
             });
 
