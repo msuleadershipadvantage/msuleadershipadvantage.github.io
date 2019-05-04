@@ -14795,7 +14795,7 @@ textarea[resize='horizontal'] {
 
     transition: all .15s ease;
 
-    color: #5e72e4;
+    color: #18453B;
     background-color: #fff;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
@@ -14807,7 +14807,7 @@ textarea[resize='horizontal'] {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
     color: #fff;
-    background-color: #5e72e4;
+    background-color: #18453B;
 }
 
 @media (max-width: 575.98px) {
