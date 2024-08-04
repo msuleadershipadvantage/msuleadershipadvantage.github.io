@@ -4886,6 +4886,50 @@ input[type='button'].btn-block {
     display: block;
 }
 
+.tab-content img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tab-content-wrapper {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-tabs .nav-link {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-tabs {
+    margin-bottom: -1px; /* Remove gap between tabs and content */
+}
+
+#map-title {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Styles for the map */
+#map {
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#map:hover {
+    transform: translateY(-5px); /* Hover effect to make map float */
+}
+
+/* Positioning for the button */
+.btn-get-directions {
+    margin-top: 10px;
+    position: relative;
+    left: 0;
+    bottom: -10px;
+}
 .navbar {
     position: relative;
 
@@ -14262,7 +14306,7 @@ textarea[resize='horizontal'] {
 }
 
 .icon-xl + .icon-text {
-    width: calc(100% - $icon-size-xl - 1);
+    width: calc(100% - icon-size-xl - 1);
 }
 
 .icon-lg {
@@ -14276,7 +14320,7 @@ textarea[resize='horizontal'] {
 }
 
 .icon-lg + .icon-text {
-    width: calc(100% - $icon-size-lg - 1);
+    width: calc(100% - icon-size-lg - 1);
 }
 
 .icon-sm {
@@ -14290,7 +14334,7 @@ textarea[resize='horizontal'] {
 }
 
 .icon-sm + .icon-text {
-    width: calc(100% - $icon-size-sm - 1);
+    width: calc(100% - icon-size-sm - 1);
 }
 
 .icon-shape {
